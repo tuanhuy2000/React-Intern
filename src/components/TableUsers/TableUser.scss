@@ -1,0 +1,26 @@
+.group-btn {
+  display: flex;
+  gap: 10px;
+  i {
+    padding-right: 10px;
+  }
+}
+
+.sort-header {
+  display: flex;
+  justify-content: space-between;
+
+  i {
+    padding: 0 2px;
+    cursor: pointer;
+  }
+}
+
+.custom-table {
+  width: inherit;
+  overflow-x: auto;
+}
+
+.pagination {
+  justify-content: center;
+}
